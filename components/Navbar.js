@@ -45,7 +45,7 @@ const Navbar = () => {
                <IconProp icon={ico.icon} icoclassN={`p-2 bg-gray-300
                 rounded-full shadow shadow-black bg-blue-400 text-pink-100
                  cursor-pointer hover:text-black border-4
-                 hover:border-black ${ico.id===1 ? `hidden md:flex` : ``}`}/>
+                 hover:border-black ${ico.id<3 ? `hidden md:flex` : ``}`}/>
             </div>  
           ))}
           <ProfilePicSmall/>
