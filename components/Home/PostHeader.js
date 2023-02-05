@@ -42,13 +42,11 @@ const PostHeader = () => {
            <ProfilePicSmall/>
            <InputProp 
                  inplaceholder={`Whats on your mind, Thomas?`}
-                 inclassN={`bg-gray-800 py-2 pl-5 pr-11 rounded-l-full
+                 inclassN={`bg-gray-800 py-2 px-5 rounded-l-full
                      mt-[-1.3rem] text-pink-300 placeholder-pink-100
-                    outline-none absolute right-0 
+                    outline-none absolute right-[0rem]
                     hover:placeholder-white hover:text-white
-                    hover:bg-cyan-400 left-[5rem]
-                    `} 
-                
+                    hover:bg-cyan-400 left-[5rem]`}     
             />
          </div>
 
