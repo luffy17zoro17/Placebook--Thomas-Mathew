@@ -62,7 +62,7 @@ const PostProp = ({posts}) => {
                     details={posts.detailsOne}
                     detailclassN={`text-cyan-600 text-sm cursor-pointer hover:underline`}
                  />
-                 <IconProp icoclassN={`scale-[0.6] ml-[-1rem] cursor-pointer`} icon={<PublicIcon/>}/>
+                 <IconProp icoclassN={`scale-[0.6] cursor-pointer`} icon={<PublicIcon/>}/>
                 </div>
                </div>
                 </div>
