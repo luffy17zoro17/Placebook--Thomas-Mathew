@@ -61,7 +61,7 @@ const PostHeader = () => {
                    item.id===2 ? `text-green-500` : item.id===3 ? `text-yellow-600` : ``}`}/>
                <TextProp 
                   title={item.title}
-                  titleclassN={`font-bold text-[0.9rem]`}
+                  titleclassN={`font-bold text-[0.85rem] md:text-[0.9rem]`}
                />
             </div>  
          ))}

@@ -40,7 +40,7 @@ const Navbar = () => {
 
         <div className="flex gap-[0.5vw] absolute right-5">
           {NavRightIcons.map((ico)=>(
-            <div key={ico.id} className="flex">
+            <div key={ico.id} className="flex items-center">
                <IconProp icon={ico.icon} icoclassN={`p-2
                 rounded-full shadow shadow-black bg-blue-400 text-pink-100
                  cursor-pointer hover:text-black border-4
