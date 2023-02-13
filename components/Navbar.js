@@ -14,10 +14,9 @@ import ProfilePicSmall from "./ProfilePicSmall";
 
 const Navbar = () => {
     return (
-      <div className="flex items-center fixed w-full shadow
+      <div className="flex items-center fixed w-full shadow-md
         shadow-black bg-gradient-to-r from-pink-300 via-yellow-300 
-        to-pink-200 border-b h-[3.5rem] top-0 z-20 rounded-br-[3rem]
-         hover:shadow-md hover:shadow-black">
+        to-pink-200 border-b h-[3.5rem] top-0 z-20 rounded-br-[3rem]">
         <div className="flex gap-[2vw] absolute left-5">
            <Logo/>
 

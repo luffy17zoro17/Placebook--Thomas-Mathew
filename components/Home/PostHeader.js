@@ -35,7 +35,7 @@ const PostHeader = () => {
       <div className="
        bg-gradient-to-t from-pink-300 to-yellow-200
       rounded-xl mt-5 shadow shadow-black
-       rounded-br-[4rem]">
+       rounded-br-[3rem]">
          <div className="flex items-center pl-5
            rounded-t-xl relative
           py-4 gap-[0.7vw]">
@@ -50,7 +50,7 @@ const PostHeader = () => {
             />
          </div>
 
-         <div className="flex justify-center gap-[3.5vw]
+         <div className="flex justify-center gap-[3vw]
           py-5 sm:gap-[6vw] md:gap-[1.6vw] lg:gap-[6vw]
           xl:gap-[3.5vw]">
          {BottomItems.map((item)=>(

@@ -38,7 +38,7 @@ const PostProp = ({posts}) => {
     return (
       <div>
        <div className="bg-gradient-to-t from-pink-300 via-yellow-200 to-red-200
-       shadow shadow-black rounded-xl rounded-tr-[4rem] mt-[1.5rem]"> 
+       shadow shadow-black rounded-xl rounded-tr-[3rem] mt-[1.5rem]"> 
       
           <div>
              <TextProp title={posts.title} titleclassN={`border-b-2 border-cyan-400 p-3`}/>

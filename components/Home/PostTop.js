@@ -58,7 +58,7 @@ const PostTop = () => {
     return (
       <div className='
       bg-gradient-to-t from-pink-300 via-yellow-200 to-red-200
-          rounded-xl pb-3 px-5 shadow shadow-black rounded-tr-[4rem]'>
+          rounded-xl pb-3 px-5 shadow shadow-black rounded-tr-[3rem]'>
          <div className='flex border-b py-3 flex justify-center
              gap-[7vw] md:gap-[1vw]'>
             {TopItems.map((item)=>(
