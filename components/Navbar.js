@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="flex gap-[0.5vw] absolute right-5">
           {NavRightIcons.map((ico)=>(
             <div key={ico.id} className="flex">
-               <IconProp icon={ico.icon} icoclassN={`p-2 bg-gray-300
+               <IconProp icon={ico.icon} icoclassN={`p-2
                 rounded-full shadow shadow-black bg-blue-400 text-pink-100
                  cursor-pointer hover:text-black border-4
                  hover:border-black ${ico.id<3 ? `hidden md:flex` : ``}`}/>
